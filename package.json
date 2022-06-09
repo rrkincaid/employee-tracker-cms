@@ -1,0 +1,25 @@
+{
+  "name": "employee-tracker-cms",
+  "version": "1.0.0",
+  "description": "Module 12 HW | SQL Challenge: Employee Tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrkincaid/employee-tracker-cms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rrkincaid/employee-tracker-cms/issues"
+  },
+  "homepage": "https://github.com/rrkincaid/employee-tracker-cms#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
+  }
+}
