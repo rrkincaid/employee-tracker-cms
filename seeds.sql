@@ -1,4 +1,4 @@
-INSERT INTO depamrtment (name)
+INSERT INTO department (name)
 VALUES (""),
 
 

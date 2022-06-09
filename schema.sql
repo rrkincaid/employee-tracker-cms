@@ -3,8 +3,8 @@ CREATE DATABASE employees_db;
 USE employees_db;
 
 CREATE TABLE department (
-  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  name VARCHAR(30) NOT NULL
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(30) NOT NULL
 );
 
 CREATE TABLE role (
@@ -24,6 +24,6 @@ CREATE TABLE employee (
     role_id INT NOT NULL
     manager_id INT
     FOREIGN KEY (manager_id)
-    REFERENCES employee(manager_id)
+    REFERENCES employee(id)
     ON DELETE SET NULL
 );
