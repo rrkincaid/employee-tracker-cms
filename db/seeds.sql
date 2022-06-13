@@ -1,5 +1,9 @@
 INSERT INTO department (name)
-VALUES (""),
+VALUES ("")
+    -- ("Manager"),
+    -- ("Engineer"),
+    -- ("Admin"),
+    -- ("Intern"),
 
 
 INSERT INTO role (title, salary, department_id)
