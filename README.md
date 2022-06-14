@@ -13,6 +13,8 @@ Module 12 HW | SQL Challenge: Employee Tracker
 
 ## Description
 
+Creating an employee database using SQL
+
 ## User Story
 
 ```md
@@ -44,6 +46,9 @@ THEN I am prompted to select an employee to update and their new role and this i
 ```
 
 ## Mock-Up
+
+<img src="./images/capture.png">
+https://drive.google.com/file/d/1yWqWcoN6nLvrIsLSKjRcOau6bcnFOuQx/view
 
 ## Getting Started
 
